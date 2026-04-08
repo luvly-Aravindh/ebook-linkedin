@@ -91,7 +91,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Email details
     $to = "sriethiraj@getnos.io"; // ✅ Change if needed
-    $subject = "Dollar Business Meta - Discover How Exporters Find Active Importers";
+    $subject = "Dollar Business Linkedin - Discover How Exporters Find Active Importers";
 
     $message = "
 New Form Submission:
