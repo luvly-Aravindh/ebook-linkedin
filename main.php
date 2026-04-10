@@ -74,6 +74,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = htmlspecialchars(trim($_POST['name'] ?? ''));
     $email = htmlspecialchars(trim($_POST['email'] ?? ''));
     $phone = htmlspecialchars(trim($_POST['phone'] ?? ''));
+    $companyname = htmlspecialchars(trim($_POST['company_name'] ?? ''));
     $business = htmlspecialchars(trim($_POST['business_type'] ?? ''));
 
     // Basic validation
@@ -99,6 +100,7 @@ New Form Submission:
 Name: $name
 Email: $email
 Phone: $phone
+Company Name: $companyname
 Business Type: $business
 ";
 
